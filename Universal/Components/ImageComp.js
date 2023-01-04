@@ -4,7 +4,7 @@ import CharacterPNG from '../src/character.png'
 import CharacterSVG from '../src/character.svg'
 
 
-const HomeScreen = () => {
+const ImageComp = () => {
   return (
     <View>
       <Image source={CharacterPNG} />
@@ -13,7 +13,7 @@ const HomeScreen = () => {
       <Image source={{ uri: 'https://reactjs.org/logo-og.png' }}
         style={{ width: 100, height: 100, resizeMode: 'contain' }} />
 
-      <ImageBackground source={Char}
+      <ImageBackground source={CharacterPNG}
         style={{ width: 100, height: 100, justifyContent: 'center', alignItems: 'center' }}>
         <Text style={{ fontSize: 20, color: '#000' }}>Inside</Text>
       </ImageBackground>
@@ -22,6 +22,8 @@ const HomeScreen = () => {
   )
 }
 
-export default FloatingButton
+export default ImageComp
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+
+})

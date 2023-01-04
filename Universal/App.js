@@ -1,15 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { ImageComponent } from './Components/ImageComponent.js'
+import ImageComp from './Components/ImageComp'
 
 const App = () => {
   return (
     <View>
-     <ImageComponent/>
+      <ImageComp />
     </View>
   )
 }
 
 export default App
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+
+})
